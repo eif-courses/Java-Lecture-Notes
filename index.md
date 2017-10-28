@@ -9,7 +9,9 @@ layout: home
 ---
 
 
-# JAVA
+# PROGRAMAVIMO KALBA JAVA
+
+## Programavimo kalbos Java išeities tekstas 
 ```java
 package overloadedMethods;
 
@@ -31,7 +33,7 @@ public class OverloadedMethodJava {
     }
 }
 ```
-# KOTLIN
+## Programavimo kalbos Kotlin išeities tekstas 
 ```kotlin
 package overloadedMethods
 

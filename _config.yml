@@ -1,6 +1,6 @@
 title: Programavimo kalba Java
 description: Teorinė paskaitų medžiaga ir programų pavyzdžiai
-show_downloads: false
+show_downloads: true
 
 baseurl: "/Java-Lecture-Notes" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://eif-courses.github.io/" # change this to the base hostname & protocol for your site
