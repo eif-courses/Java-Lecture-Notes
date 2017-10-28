@@ -16,20 +16,18 @@ Have a look at the Github page for more information.
 
 You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
 
-     
-     
-  # Contents
-     - [Specification](#specification) 
-     - [Dependencies Title](#dependencies-title) 
+# Contents
+- [Specification](#specification) 
+- [Dependencies Title](#dependencies-title) 
 
-    ## Specification
-    Example text blah. Example text blah. Example text blah. Example text blah. 
+## Specification
+Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. 
 
-   ## Dependencies Title
-    Example text blah. Example text blah. Example text blah. Example text blah. 
+## Dependencies Title
+Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. 
