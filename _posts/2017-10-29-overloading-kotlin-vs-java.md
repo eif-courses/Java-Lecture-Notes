@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "KOTLIN VS JAVA"
+title: "Kotlin vs Java"
 ---
 
 Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palyginimas su Java.
