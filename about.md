@@ -25,3 +25,6 @@ permalink: /about/
 - 新浪微博:[Guovz](http://www.weibo.com/guovz/)
 - github:[Guovz](https://github.com/guovz)
 - Email:[pzhuwjl@qq.com](pzhuwjl@qq.com)
+```java 
+public static void main(){}
+```
