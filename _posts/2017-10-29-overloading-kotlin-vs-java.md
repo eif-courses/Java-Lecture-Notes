@@ -1,7 +1,12 @@
 ---
 layout: post
-title: "Overloading Java VS Kotling programming language"
+title: "Overloading Java VS Kotlin programming language"
 ---
 
-[Link to another page: About]({{ site.baseurl }}/about).
+
+Palyginimas tarpusavyje sprendžiant analogišką problemą.
+
+
+
+[Link to another page: HomePage]({{ site.baseurl }}/index).
 
