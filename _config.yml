@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/Java-Lecture-Notes/g" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "127.0.0.1:4000" # change this to the base hostname & protocol for your site
+baseurl: "/jekyll-theme-simple-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://lorepirri.gitlab.io" # change this to the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -65,11 +65,13 @@ facebook:
   #pixelcode: 1670622619859349
 
 
-
+# gitlab on site
+gitlab:
+  owner_url: https://gitlab.com/lorepirri
 
 # github on site
 github:
-  owner_url: https://github.com/eif-courses/
+  owner_url: https://github.com/lorepirri
 
 
 # translation
