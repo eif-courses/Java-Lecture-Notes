@@ -4,12 +4,27 @@ title: "Kotlin vs Java"
 ---
 
 Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palyginimas su Java.
-` void printMessage(String message){ 
-      System.out.printf("Message: %s\n", message); 
-    } void printMessage(String message){ 
-      System.out.printf("Message: %s\n", message); 
-    }`
+```java
+package overloadedMethods;
 
+public class OverloadedMethodJava {
+    void printMessage(String message){ 
+      System.out.printf("Message: %s\n", message); 
+    }
+    void printMessage(String message, String prefix){ 
+      System.out.printf("Message: %s, Prefix: %s\n", message, prefix); 
+    }
+    void printMessage(String message, String prefix, String suffix){ 
+      System.out.printf("Message: %s, Prefix: %s, Suffix: %s\n", message, prefix, suffix); 
+    }
+
+    public static void main(String[] args) {
+        new OverloadedMethodJava().printMessage("Hello");
+        new OverloadedMethodJava().printMessage("Hello", "WithPRefix");
+        new OverloadedMethodJava().printMessage("Hello", "WithPRefix", "AndSuffix");
+    }
+}
+```
 ## Kotlin vs Java
 
 
