@@ -32,3 +32,33 @@ pithy是一款适用于jekyll的博客应用主题，基于bootstrap前端框架
 License
 ===
 [MIT License](https://github.com/guovz/pithy/blob/gh-pages/LICENSE.md)
+
+
+# CODE 
+
+
+```java 
+package overloadedMethods;
+
+public class OverloadedMethodJava {
+    void printMessage(String message){ 
+      System.out.printf("Message: %s\n", message); 
+    }
+    void printMessage(String message, String prefix){ 
+      System.out.printf("Message: %s, Prefix: %s\n", message, prefix); 
+    }
+    void printMessage(String message, String prefix, String suffix){ 
+      System.out.printf("Message: %s, Prefix: %s, Suffix: %s\n", message, prefix, suffix); 
+    }
+
+    public static void main(String[] args) {
+        new OverloadedMethodJava().printMessage("Hello");
+        new OverloadedMethodJava().printMessage("Hello", "WithPRefix");
+        new OverloadedMethodJava().printMessage("Hello", "WithPRefix", "AndSuffix");
+    }
+}
+```
+
+
+
+
