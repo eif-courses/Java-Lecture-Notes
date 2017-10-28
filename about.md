@@ -26,5 +26,23 @@ permalink: /about/
 - github:[Guovz](https://github.com/guovz)
 - Email:[pzhuwjl@qq.com](pzhuwjl@qq.com)
 ```java 
-public static void main(){}
+package overloadedMethods;
+
+public class OverloadedMethodJava {
+    void printMessage(String message){ 
+      System.out.printf("Message: %s\n", message); 
+    }
+    void printMessage(String message, String prefix){ 
+      System.out.printf("Message: %s, Prefix: %s\n", message, prefix); 
+    }
+    void printMessage(String message, String prefix, String suffix){ 
+      System.out.printf("Message: %s, Prefix: %s, Suffix: %s\n", message, prefix, suffix); 
+    }
+
+    public static void main(String[] args) {
+        new OverloadedMethodJava().printMessage("Hello");
+        new OverloadedMethodJava().printMessage("Hello", "WithPRefix");
+        new OverloadedMethodJava().printMessage("Hello", "WithPRefix", "AndSuffix");
+    }
+}
 ```
