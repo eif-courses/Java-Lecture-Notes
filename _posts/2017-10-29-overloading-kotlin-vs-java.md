@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "Example content"
+title: "Overloading Java VS Kotling programming language"
 ---
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page: About]({{ site.baseurl }}/about).
 
