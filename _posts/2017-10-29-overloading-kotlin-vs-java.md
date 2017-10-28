@@ -12,7 +12,7 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 
 ### Overloaded methods
 
-**Java**
+
 ```java
 package overloadedMethods;
 
@@ -33,9 +33,10 @@ public class OverloadedMethodJava {
         new OverloadedMethodJava().printMessage("Hello", "WithPRefix", "AndSuffix");
     }
 }
+//----------------------Java---------------------------//
 ```
 
-**Kotlin**
+
 
 ```kotlin
 package overloadedMethods
@@ -53,6 +54,7 @@ fun main(args: Array<String>) {
     // Bet kokia tvarka pagal vardą parametro
     overloaded.printMessage(prefix = "Hello im Prefix", message = "im Kotlin", suffix = "And Suffix")
 }
+//----------------------Kotlin---------------------------//
 ```
 
 ### Filter collections
