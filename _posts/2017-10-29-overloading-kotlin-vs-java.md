@@ -4,6 +4,11 @@ title: "Kotlin vs Java"
 ---
 
 Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palyginimas su Java.
+` void printMessage(String message){ 
+      System.out.printf("Message: %s\n", message); 
+    } void printMessage(String message){ 
+      System.out.printf("Message: %s\n", message); 
+    }`
 
 ## Kotlin vs Java
 
