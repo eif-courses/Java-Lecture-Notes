@@ -10,7 +10,7 @@ layout: home
 
 # Programavimo kalba Java
 
-## Turinys
+**Turinys**
 - [Overloading Java vs Kotlin](#overloading-java-vs-kotlin) 
 - [Dependencies Title](#dependencies-title) 
 
