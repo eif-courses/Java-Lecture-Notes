@@ -5,7 +5,7 @@ title: "KOTLIN VS JAVA"
 
 Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palyginimas su Java.
 
-## KOTLIN VS JAVA
+## Kotlin vs Java
 
 
 **Java methods overloading**
