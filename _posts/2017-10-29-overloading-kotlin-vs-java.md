@@ -6,10 +6,6 @@ title: "Overloading Java VS Kotlin programming language"
 
 Palyginimas tarpusavyje sprendžiant analogišką problemą.
 
-
-
-[Link to another page: HomePage]({{ site.baseurl }}/index).
-
 ## Overloading Java vs Kotlin
 
 **Java programming language**
@@ -54,3 +50,7 @@ fun main(args: Array<String>) {
     overloaded.printMessage(prefix = "Hello im Prefix", message = "im Kotlin", suffix = "And Suffix")
 }
 ```
+
+[Link to another page: HomePage]({{ site.baseurl }}/index).
+
+
