@@ -33,7 +33,7 @@ public class OverloadedMethodJava {
         new OverloadedMethodJava().printMessage("Hello", "WithPRefix", "AndSuffix");
     }
 }
-//----------------------Java---------------------------//
+//--------------------------------------------Java-----------------------------------------------//
 ```
 
 
@@ -53,12 +53,12 @@ fun main(args: Array<String>) {
     overloaded.printMessage("Hi im Kotlin", "with prefix", "AndSuffix")
     // Bet kokia tvarka pagal vardą parametro
     overloaded.printMessage(prefix = "Hello im Prefix", message = "im Kotlin", suffix = "And Suffix")
-}
-//----------------------Kotlin---------------------------//
+
+//--------------------------------------------Kotlin-----------------------------------------------//
 ```
 
 ### Filter collections
-**Java ranged stream filtering and simple collection print out.**
+
 
 ```java
 public class ListExamples {
@@ -77,10 +77,9 @@ public class ListExamples {
                 .forEach(System.out::print);
     }
 }
-
+//--------------------------------------------Java-----------------------------------------------//
 ```
 
-**Kotlin ranged stream filtering and simple collection print out.**
 
 ```kotlin
 package listOfNumbers
@@ -102,7 +101,7 @@ fun main(args: Array<String>) {
             .map { it % 20 }
             .forEach { print(" " + it) }
 }
-
+//--------------------------------------------Kotlin-----------------------------------------------//
 ```
 
 
