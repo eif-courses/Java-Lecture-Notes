@@ -6,9 +6,13 @@ title: "Kotlin vs Java"
 Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palyginimas su Java.
 
 ## Kotlin vs Java
+**Turinys**
+- [Overloaded methods](#overloaded-methods) 
+- [FIltered collections](#filter-collections) 
 
+### Overloaded methods
 
-**Java overloaded methods**
+**Java**
 ```java
 package overloadedMethods;
 
@@ -31,7 +35,7 @@ public class OverloadedMethodJava {
 }
 ```
 
-**Kotlin overloaded methods**
+**Kotlin**
 
 ```kotlin
 package overloadedMethods
@@ -51,6 +55,7 @@ fun main(args: Array<String>) {
 }
 ```
 
+### Filter collections
 **Java ranged stream filtering and simple collection print out.**
 
 ```java
