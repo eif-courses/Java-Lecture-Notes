@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Overloading Java VS Kotlin programming language"
+title: "KOTLIN VS JAVA"
 ---
 
+Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palyginimas su Java.
 
-Palyginimas tarpusavyje sprendžiant analogišką problemą.
+## KOTLIN VS JAVA
 
-## Overloading Java vs Kotlin
 
-**Java programming language**
+**Java methods overloading**
 ```java
 package overloadedMethods;
 
@@ -31,7 +31,7 @@ public class OverloadedMethodJava {
 }
 ```
 
-**Kotlin programming language**
+**Kotlin methods overloading**
 
 ```kotlin
 package overloadedMethods
