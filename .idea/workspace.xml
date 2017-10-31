@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c08fc1b-efc3-4e04-919d-86e85c689d0e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/0b552215-ddc4-27ff-efd6-f84091d8c9c9.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/109f45c3-5f70-101e-d6cb-961c59e1fbd0.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/32d0541e-2738-274f-c1fc-2c2c449c56e7.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/40c32746-76a6-d0bd-489c-00dba5f68a73.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6301d92a-40e8-efda-6a47-440f37b37309.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6a6483aa-6037-a478-93a2-89f180e48afc.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/81080bbb-90c2-83c6-c2f1-9d9579d9f0e9.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/897a3988-b2f9-9567-8325-a64b13692e9b.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/98b3be65-de75-43ad-2d21-d47f883721bb.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9e421d75-13e1-790d-e176-f0f13b748496.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9e9590e6-b0b8-2a90-b661-28e8dab2d97c.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bd9d1b3e-f2af-5a18-3d5e-a3a4957f374c.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d10a8982-de7b-2bc0-a07d-5ca32d374e1a.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e156624c-fb0b-b79f-7cd5-04e5948b1944.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e363c517-e047-4b7b-6a74-e8176b6c7fe9.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ec47897f-c906-c8c8-87a4-05e6b66b3ac9.webPlatform.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fc73ea7d-d261-11bb-e9e7-5a4bd3dda7f4.webPlatform.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
+            <state relative-caret-position="-342">
               <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -53,6 +69,29 @@
       </file>
       <file leaf-file-name="pwabuilder-sw.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwabuilder-sw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-250">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="204">
+                <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pwabuilder-sw-register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwabuilder-sw-register.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -128,8 +167,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="943" />
-    <option name="y" value="264" />
+    <option name="x" value="529" />
+    <option name="y" value="226" />
     <option name="width" value="480" />
     <option name="height" value="515" />
   </component>
@@ -207,7 +246,7 @@
       <updated>1509223418060</updated>
       <workItem from="1509223420048" duration="2134000" />
       <workItem from="1509228799369" duration="23000" />
-      <workItem from="1509481006746" duration="2956000" />
+      <workItem from="1509481006746" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="awea">
       <created>1509224943922</created>
@@ -286,17 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1509483586349</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="drsrar">
+      <created>1509483968143</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1509483968143</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5113000" />
+    <option name="totallyTimeSpent" value="5412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -747,14 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -763,7 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwabuilder-sw.js">
+    <entry file="file://$PROJECT_DIR$/pwabuilder-sw-register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -771,10 +808,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwabuilder-sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
       </provider>
