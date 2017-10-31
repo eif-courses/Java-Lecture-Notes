@@ -3,6 +3,8 @@ layout: post
 title: "Anotacijos ir JavaDocs"
 ---
 
+Skyrelyje yra apžvelgiamos anotacijos jų rūšys ir paskirtis. Taip pat pateikiami įvairūs pavyzdžiai su Anotacijomis bei Java dokumentacijos rengimu.
+
 # Anotacijos vs Komentarai
 
 - One main difference with annotation is it can be carried over to runtime
