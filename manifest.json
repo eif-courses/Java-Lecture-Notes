@@ -14,87 +14,87 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "/images/6a6483aa-6037-a478-93a2-89f180e48afc.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/6a6483aa-6037-a478-93a2-89f180e48afc.webPlatform.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "/images/40c32746-76a6-d0bd-489c-00dba5f68a73.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/40c32746-76a6-d0bd-489c-00dba5f68a73.webPlatform.png",
             "sizes": "1240x600",
             "type": "image/png"
         },
         {
-            "src": "/images/897a3988-b2f9-9567-8325-a64b13692e9b.webPlatform.png",
+            "src": "Java-Lecture-Notes/897a3988-b2f9-9567-8325-a64b13692e9b.webPlatform.png",
             "sizes": "300x300",
             "type": "image/png"
         },
         {
-            "src": "/images/98b3be65-de75-43ad-2d21-d47f883721bb.webPlatform.png",
+            "src": "Java-Lecture-Notes/98b3be65-de75-43ad-2d21-d47f883721bb.webPlatform.png",
             "sizes": "88x88",
             "type": "image/png"
         },
         {
-            "src": "/images/fc73ea7d-d261-11bb-e9e7-5a4bd3dda7f4.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/fc73ea7d-d261-11bb-e9e7-5a4bd3dda7f4.webPlatform.png",
             "sizes": "24x24",
             "type": "image/png"
         },
         {
-            "src": "/images/0b552215-ddc4-27ff-efd6-f84091d8c9c9.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/0b552215-ddc4-27ff-efd6-f84091d8c9c9.webPlatform.png",
             "sizes": "50x50",
             "type": "image/png"
         },
         {
-            "src": "/images/d10a8982-de7b-2bc0-a07d-5ca32d374e1a.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/d10a8982-de7b-2bc0-a07d-5ca32d374e1a.webPlatform.png",
             "sizes": "620x300",
             "type": "image/png"
         },
         {
-            "src": "/images/32d0541e-2738-274f-c1fc-2c2c449c56e7.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/32d0541e-2738-274f-c1fc-2c2c449c56e7.webPlatform.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/109f45c3-5f70-101e-d6cb-961c59e1fbd0.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/109f45c3-5f70-101e-d6cb-961c59e1fbd0.webPlatform.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/images/6301d92a-40e8-efda-6a47-440f37b37309.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/6301d92a-40e8-efda-6a47-440f37b37309.webPlatform.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "/images/e363c517-e047-4b7b-6a74-e8176b6c7fe9.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/e363c517-e047-4b7b-6a74-e8176b6c7fe9.webPlatform.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "/images/bd9d1b3e-f2af-5a18-3d5e-a3a4957f374c.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/bd9d1b3e-f2af-5a18-3d5e-a3a4957f374c.webPlatform.png",
             "sizes": "36x36",
             "type": "image/png"
         },
         {
-            "src": "/images/81080bbb-90c2-83c6-c2f1-9d9579d9f0e9.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/81080bbb-90c2-83c6-c2f1-9d9579d9f0e9.webPlatform.png",
             "sizes": "1024x1024",
             "type": "image/png"
         },
         {
-            "src": "/images/ec47897f-c906-c8c8-87a4-05e6b66b3ac9.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/ec47897f-c906-c8c8-87a4-05e6b66b3ac9.webPlatform.png",
             "sizes": "180x180",
             "type": "image/png"
         },
         {
-            "src": "/images/9e9590e6-b0b8-2a90-b661-28e8dab2d97c.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/9e9590e6-b0b8-2a90-b661-28e8dab2d97c.webPlatform.png",
             "sizes": "152x152",
             "type": "image/png"
         },
         {
-            "src": "/images/e156624c-fb0b-b79f-7cd5-04e5948b1944.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/e156624c-fb0b-b79f-7cd5-04e5948b1944.webPlatform.png",
             "sizes": "120x120",
             "type": "image/png"
         },
         {
-            "src": "/images/9e421d75-13e1-790d-e176-f0f13b748496.webPlatform.png",
+            "src": "Java-Lecture-Notes/images/9e421d75-13e1-790d-e176-f0f13b748496.webPlatform.png",
             "sizes": "76x76",
             "type": "image/png"
         }
