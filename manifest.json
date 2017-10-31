@@ -4,7 +4,7 @@
     "name": "GitHub",
     "scope": "/Java-Lecture-Notes",
     "display": "standalone",
-    "start_url": "https://eif-courses.github.io/Java-Lecture-Notes/",
+    "start_url": ".",
     "short_name": "GitHub",
     "theme_color": "#1e2327",
     "description": "Java-Lecture-Notes",
