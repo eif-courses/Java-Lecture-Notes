@@ -1,11 +1,11 @@
 {
     "dir": "ltr",
     "lang": "en",
-    "name": "GitHub",
+    "name": "EIF-COURSES",
     "scope": "/Java-Lecture-Notes",
     "display": "standalone",
     "start_url": ".",
-    "short_name": "GitHub",
+    "short_name": "EIF-COURSES",
     "theme_color": "#1e2327",
     "description": "Java-Lecture-Notes",
     "orientation": "any",
