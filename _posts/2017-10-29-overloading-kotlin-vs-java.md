@@ -37,7 +37,7 @@ var vardas = "Petras" // Vardą galėsime pakeisti bet kada (angl. mutable)
 **Kotlin data class**
 Kotlin turi galimybę įgyvendinti duomenų klases vadinamas data class žemiau matysite kaip nesudėtingai galima aprašyti senąsias JAVA bean klases (POJO / POCO):
 ```kotlin 
-data class Studentas(val vardas: String, val amzius: Int)
+data class Studentas(val vardas: String, var amzius: Int)
 ```
 **Pastaba**. data class negali būti paskelbtos abstrakčiomis klasėmės, taip pat negali būti galutinės (angl. sealed) arba vidinės (angl. inner). Sukūrus data class yra sugeneruojami šie metodai: get/set, toString, hashCode, copy metodai. Norint nukopijuoti reikšmę iš sukurto objekto egzemplioriaus pvz: 
 ```kotlin 
@@ -46,6 +46,18 @@ val petriukas = Studentas("Petriukas", 22)
     println(kitasPetriukas) // Studentas(vardas=Petriukas, amzius=25)
 
 ``` 
+
+**Data Classes and Destructuring Declarations**
+
+Component functions generated for data classes enable their use in destructuring declarations:
+```kotlin
+val jane = User("Jane", 35) 
+val (name, age) = jane
+println("$name, $age years of age") // prints "Jane, 35 years of age"
+```
+**Standard Data Classes**
+
+The standard library provides Pair and Triple. In most cases, though, named data classes are a better design choice, because they make the code more readable by providing meaningful names for properties.
 
 ### Overloaded methods
 
@@ -77,6 +89,19 @@ Kaip matome aukščiau pateikta Java realizacija norint aprašyti skirtingus ove
     void metodas(double c, int a){}
     ...............................
 ```
+Kotlin kalboje šiek tiek paprasčiau kadangi yra įvedami įvardintieji parametrai (angl. named parameters) ir funkcijų parametrai gali turėti reikšmę pagal nutylėjimą (angl. by default) kas įgalina paprastesnį ir lankstesnį overloaded metodų aprašymą. Apžvelkime prieš tai aprašytą Java metodą naudojant Kotlin programavimo kalbą.
+
+```kotlin
+fun metodas(a: Int = 0, c: Double = 0.0) {
+    metodas()
+    metodas(10)
+    metodas(55, 22.9)
+    metodas(c = 22.8, a = 2)
+    metodas(c = 33.9)
+}
+
+```
+
 
 ```kotlin
 package overloadedMethods
