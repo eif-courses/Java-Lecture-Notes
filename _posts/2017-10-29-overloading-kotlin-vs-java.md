@@ -157,7 +157,8 @@ Jeigu naudosime šį typealias mes pakeičiame String į Int, gali būti situaci
 typealias String = Int
 ```
 
-### Conditions kotlin<TODO ------------->
+### Conditions kotlin<TODO -------------> https://www.youtube.com/watch?v=YbF8Q8LxAJs
+    
 
 
 ### Extension funkcijos 
