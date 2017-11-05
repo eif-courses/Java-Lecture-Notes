@@ -147,6 +147,10 @@ fun init(){
     println("Pirmas narys: ${pora.first}, Antras narys: ${pora.second}")
 }
 ```
+Jeigu reikšmė yra nesvarbi naudojant destructing declarations galima pavadinti naudojant underscore:
+```kotlin
+ val (_, kita_reiksme) = grazinaPora()
+ ```
 
 ### Filter usage collections
 
