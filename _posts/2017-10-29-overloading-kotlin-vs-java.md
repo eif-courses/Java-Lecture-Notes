@@ -61,6 +61,29 @@ The standard library provides Pair and Triple. In most cases, though, named data
 
 ### Overloaded methods
 
+
+Overloaded metodai Java kalboje aprašomi kiekvienam atvejui turi skirtis parametrų skaičius arba perduodamas tipas pvz: turime tokią aibę metodų: 
+```Java 
+  void metodas(){}
+  void metodas(int a){}
+  void metodas(double c){}
+  void metodas(int a, double c){}
+  void metodas(double c, int a){}
+```
+Kotlin kalboje šiek tiek paprasčiau kadangi yra įvedami įvardintieji parametrai (angl. named parameters) ir funkcijų parametrai gali turėti reikšmę pagal nutylėjimą (angl. by default) kas įgalina paprastesnį ir lankstesnį overloaded metodų aprašymą. Apžvelkime prieš tai aprašytą Java metodą realizuojant analogiškus metodus naudojant Kotlin programavimo kalbą. Kadangi Kotlin neturi metodų turi funkcijas tada galima aprašyti funkciją atitinkančią prieš tai aprašytuosius metodus Java kalboje. 
+
+```kotlin
+fun metodas(a: Int = 0, c: Double = 0.0) { // Žymiai paprasčiau nereikia aprašyti visų įmanomų atvejų!!!
+    metodas()
+    metodas(10)
+    metodas(c = 33.9)
+    metodas(55, 22.9)
+    metodas(c = 22.8, a = 2)
+}
+
+```
+**Dar vienas pavyzdys palyginimui Java vs Kotlin aprašant overloaded metodus**
+
 ```java
 package overloadedMethods;
 
@@ -83,25 +106,6 @@ public class OverloadedMethodJava {
 }
 //--------------------------------------------Java-----------------------------------------------//
 ```
-Kaip matome aukščiau pateikta Java realizacija norint aprašyti skirtingus overloaded metodus, kiekvienam atvejui reikia sukurti po vieną unikalų metodą ir jeigu nuspręstumėte sukeisti parametrus vietomis kaip įprasta Java kabloje rašytumėme taip: 
-```Java 
- void metodas(int a, double c){}
-    void metodas(double c, int a){}
-    ...............................
-```
-Kotlin kalboje šiek tiek paprasčiau kadangi yra įvedami įvardintieji parametrai (angl. named parameters) ir funkcijų parametrai gali turėti reikšmę pagal nutylėjimą (angl. by default) kas įgalina paprastesnį ir lankstesnį overloaded metodų aprašymą. Apžvelkime prieš tai aprašytą Java metodą naudojant Kotlin programavimo kalbą.
-
-```kotlin
-fun metodas(a: Int = 0, c: Double = 0.0) {
-    metodas()
-    metodas(10)
-    metodas(55, 22.9)
-    metodas(c = 22.8, a = 2)
-    metodas(c = 33.9)
-}
-
-```
-
 
 ```kotlin
 package overloadedMethods
