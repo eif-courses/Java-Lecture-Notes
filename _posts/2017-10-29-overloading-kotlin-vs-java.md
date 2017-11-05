@@ -147,7 +147,7 @@ fun init(){
     println("Pirmas narys: ${pora.first}, Antras narys: ${pora.second}")
 }
 ```
-Jeigu reikšmė yra nesvarbi naudojant destructing declarations galima pavadinti naudojant underscore:
+Jeigu reikšmė yra nesvarbi naudojant reikšmių pervadinimą (angl. destructuring declarations) galima pavadinti naudojant underscore:
 ```kotlin
  val (_, kita_reiksme) = grazinaPora()
  ```
@@ -156,6 +156,47 @@ Jeigu naudosime šį typealias mes pakeičiame String į Int, gali būti situaci
 ```kotlin 
 typealias String = Int
 ```
+
+### Conditions kotlin<TODO ------------->
+
+
+### Extension funkcijos 
+
+Šios extension funkcijos yra labai patogios jeigu nusprendėte aprašyti naują funkciją jau egzistuojančioje klasėje.
+Nereikia papildomai sukurti klasės tada paveldėti ją ir galiausiai papildyti nauju metodu. Kotlin naudoja šią paprastą konstrukciją:
+```kotlin
+// Duomenų klasė Studentas 
+data class Studentas(val vardas: String, var amzius: Int)
+
+// Esamom klasėm "Bet kuriai egzistuojančiai" galima papildyti naujomis funkcijomis pvz: 
+fun Studentas.suteiktiStipendija(){
+    println("Studentui suteikta stipendija")       
+}
+
+// Klasė Studentas papildyta nauja funkcija tikrinam naujai sukurtą metodą.
+fun extensionFunkcijosTestas(){
+    val stud = Studentas("Joniukas", 15)
+    stud.suteiktiStipendija()
+}
+```
+Į ekraną bus išvedamas šis tekstas: 
+- Studentui suteikta stipendija
+
+Taip pat dar vienas pavyzdys turime String klasę, kuria papildysime nauju metodu pvz: 
+```kotlin
+fun String.pasisveikinimas(){
+    println("Sveiki aš esu simbolių eilutė: (angl. String)")
+}
+fun extensionStringTestas(){
+    val testas = String()
+    testas.pasisveikinimas()
+    "bet_kokia_simboliu_eilute".pasisveikinimas()
+}
+```
+Į ekraną bus išvedamas šis tekstas: 
+- Sveiki aš esu simbolių eilutė: (angl. String)
+- Sveiki aš esu simbolių eilutė: (angl. String)
+
 ### Filter usage collections
 
 
