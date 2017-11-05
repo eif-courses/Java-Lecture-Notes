@@ -199,9 +199,34 @@ fun main(args: Array<String>) {
 //--------------------------------------------Kotlin-----------------------------------------------//
 ```
 
+### Singleton Design pattern 
+Klasikinis projektavimo šablonas Singleton naudojant java programavimo kalbą.
+```java
+package singletonai;
 
+public class Singleton {
+    private static Singleton instance = null;
+    protected Singleton() {
+        // Exists only to defeat instantiation.
+    }
+    public static Singleton getInstance() {
+        if(instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+//--------------------------------------------Java-----------------------------------------------//
+```
 
-
+To pačio projektavimo šablono aprašymas naudojant programavimo kalbą kotlin.
+```kotlin
+package singletonai
+object SingletonObject{
+    val property = "kazkas"
+}
+//--------------------------------------------Kotlin-----------------------------------------------//
+```
 
 
 [Link to another page: HomePage]({{ site.baseurl }}/index).
