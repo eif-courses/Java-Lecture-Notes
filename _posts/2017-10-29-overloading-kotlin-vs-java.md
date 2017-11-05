@@ -151,7 +151,11 @@ Jeigu reikšmė yra nesvarbi naudojant destructing declarations galima pavadinti
 ```kotlin
  val (_, kita_reiksme) = grazinaPora()
  ```
-
+### TypeAlias Kotlin 
+Jeigu naudosime šį typealias mes pakeičiame String į Int, gali būti situacija, kai reikia modifikuoti atgyvenusį kodą (angl. deprecated), kadangi pakeitus visur kompiliatorius pažymės raudonai tada galie nesunkiai pašalinti šį kodą arba pakeisti. 
+```kotlin 
+typealias String = Int
+```
 ### Filter usage collections
 
 
