@@ -15,6 +15,7 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 
 ### Kotlin programavimo kalba
 
+**Kotlin funkcija**
 Kotlin nesudėtingos funkcijos aprašomos vienu sakiniu nereikia "{....}" pvz:  
 ```kotlin  
 fun sudeti(a: Int, b: Int) = a + b
@@ -25,7 +26,7 @@ Kotlin funkcija, kuri nieko negrąžina aprašoma taip:
         println("Sveikas: $tekstas")
 }
 ```
-
+**Kotlin kintamieji**
 Kotlin turi tik šiuos kintamųjų aprašymo būdus **val** arba **var** žemiau pateikiami skirtumai: 
 ```kotlin
 
@@ -33,16 +34,12 @@ val skaicius = 50 // reikšmė, kurios negalime keisti (angl. immutable)
 var vardas = "Petras" // Vardą galėsime pakeisti bet kada (angl. mutable)
 
 ```
+**Kotlin data class**
 Kotlin turi galimybę įgyvendinti duomenų klases vadinamas data class žemiau matysite kaip nesudėtingai galima aprašyti senąsias JAVA bean klases (POJO / POCO):
 ```kotlin 
 data class Studentas(val vardas: String, val amzius: Int)
 ```
-**!Pastaba**. data class negali būti paskelbtos abstrakčiomis klasėmės, taip pat negali būti galutinės (angl. sealed) arba vidinės (angl. inner).
-
-```kotlin 
-    data class Studentas(val vardas: String, val amzius: Int)
-```
-Sukūrus data class yra sugeneruojami šie metodai: get/set, toString, hashCode, copy metodai. Norint nukopijuoti reikšmę iš sukurto objekto egzemplioriaus pvz: 
+**Pastaba**. data class negali būti paskelbtos abstrakčiomis klasėmės, taip pat negali būti galutinės (angl. sealed) arba vidinės (angl. inner). Sukūrus data class yra sugeneruojami šie metodai: get/set, toString, hashCode, copy metodai. Norint nukopijuoti reikšmę iš sukurto objekto egzemplioriaus pvz: 
 ```kotlin 
 val petriukas = Studentas("Petriukas", 22)
     val kitasPetriukas = petriukas.copy(amzius = 25)
@@ -74,8 +71,12 @@ public class OverloadedMethodJava {
 }
 //--------------------------------------------Java-----------------------------------------------//
 ```
-
-
+Kaip matome aukščiau pateikta Java realizacija norint aprašyti skirtingus overloaded metodus, kiekvienam atvejui reikia sukurti po vieną unikalų metodą ir jeigu nuspręstumėte sukeisti parametrus vietomis kaip įprasta Java kabloje rašytumėme taip: 
+```Java 
+ void metodas(int a, double c){}
+    void metodas(double c, int a){}
+    ...............................
+```
 
 ```kotlin
 package overloadedMethods
