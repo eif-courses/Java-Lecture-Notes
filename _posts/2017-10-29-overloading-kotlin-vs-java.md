@@ -7,11 +7,50 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 
 ## Kotlin vs Java
 **Turinys**
+- [Kotlin programavimo kalba] (#kotlin-programavimo-kalba)
 - [Overloaded methods](#overloaded-methods) 
-- [FIltered collections](#filter-collections) 
+- [FIlter usage collections](#filter-usage-collections) 
+
+
+
+### Kotlin programavimo kalba
+
+Kotlin nesudėtingos funkcijos aprašomos vienu sakiniu nereikia "{....}" pvz:  
+```kotlin  
+fun sudeti(a: Int, b: Int) = a + b
+```
+Kotlin funkcija, kuri nieko negrąžina aprašoma taip: 
+```kotlin 
+    fun zinute(tekstas: String): Unit{ // Pagal nutylėjimą grąžina Unit tipą (Unit neprivaloma rašyti).
+        println("Sveikas: $tekstas")
+}
+```
+
+Kotlin turi tik šiuos kintamųjų aprašymo būdus **val** arba **var** žemiau pateikiami skirtumai: 
+```kotlin
+
+val skaicius = 50 // reikšmė, kurios negalime keisti (angl. immutable)
+var vardas = "Petras" // Vardą galėsime pakeisti bet kada (angl. mutable)
+
+```
+Kotlin turi galimybę įgyvendinti duomenų klases vadinamas data class žemiau matysite kaip nesudėtingai galima aprašyti senąsias JAVA bean klases (POJO / POCO):
+```kotlin 
+data class Studentas(val vardas: String, val amzius: Int)
+```
+**!Pastaba**. data class negali būti paskelbtos abstrakčiomis klasėmės, taip pat negali būti galutinės (angl. sealed) arba vidinės (angl. inner).
+
+```kotlin 
+    data class Studentas(val vardas: String, val amzius: Int)
+```
+Sukūrus data class yra sugeneruojami šie metodai: get/set, toString, hashCode, copy metodai. Norint nukopijuoti reikšmę iš sukurto objekto egzemplioriaus pvz: 
+```kotlin 
+val petriukas = Studentas("Petriukas", 22)
+    val kitasPetriukas = petriukas.copy(amzius = 25)
+    println(kitasPetriukas) // Studentas(vardas=Petriukas, amzius=25)
+
+``` 
 
 ### Overloaded methods
-
 
 ```java
 package overloadedMethods;
@@ -57,7 +96,7 @@ fun main(args: Array<String>) {
 //--------------------------------------------Kotlin-----------------------------------------------//
 ```
 
-### Filter collections
+### Filter usage collections
 
 
 ```java
@@ -104,26 +143,8 @@ fun main(args: Array<String>) {
 //--------------------------------------------Kotlin-----------------------------------------------//
 ```
 
-# Kotlin programavimo kalba
 
-Kotlin nesudėtingos funkcijos aprašomos vienu sakiniu nereikia "{....}" pvz:  
-```kotlin  
-fun sudeti(a: Int, b: Int) = a + b
-```
-Kotlin funkcija, kuri nieko negrąžina aprašoma taip: 
-```kotlin 
-    fun zinute(tekstas: String): Unit{ // Pagal nutylėjimą grąžina Unit tipą (Unit neprivaloma rašyti).
-        println("Sveikas: $tekstas")
-}
-```
 
-Kotlin turi tik šiuos kintamųjų aprašymo būdus val arba var žemiau pateikiami skirtumai: 
-```kotlin
-
-val skaicius = 50 // reikšmė, kurios negalime keisti (angl. immutable)
-var vardas = "Petras" // Vardą galėsime pakeisti bet kada (angl. mutable)
-
-```
 
 
 
