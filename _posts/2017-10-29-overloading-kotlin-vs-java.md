@@ -107,7 +107,9 @@ fun main(args: Array<String>) {
 #Kotlin funkcijų pavyzdžiai
 
 Kotlin nesudėtingos funkcijos aprašomos vienu sakiniu nereikia "{....}" pvz:  
-```kotlin  fun sudeti(a: Int, b: Int) = a + b```
+```kotlin  
+fun sudeti(a: Int, b: Int) = a + b
+```
 Kotlin funkcija, kuri nieko negrąžina aprašoma taip: 
 ```kotlin 
     fun zinute(tekstas: String): Unit{ // Pagal nutylėjimą grąžina Unit tipą
