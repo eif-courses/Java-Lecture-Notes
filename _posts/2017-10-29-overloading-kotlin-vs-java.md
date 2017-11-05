@@ -104,7 +104,7 @@ fun main(args: Array<String>) {
 //--------------------------------------------Kotlin-----------------------------------------------//
 ```
 
-#Kotlin funkcijų pavyzdžiai
+# Kotlin programavimo kalba
 
 Kotlin nesudėtingos funkcijos aprašomos vienu sakiniu nereikia "{....}" pvz:  
 ```kotlin  
@@ -112,13 +112,18 @@ fun sudeti(a: Int, b: Int) = a + b
 ```
 Kotlin funkcija, kuri nieko negrąžina aprašoma taip: 
 ```kotlin 
-    fun zinute(tekstas: String): Unit{ // Pagal nutylėjimą grąžina Unit tipą
+    fun zinute(tekstas: String): Unit{ // Pagal nutylėjimą grąžina Unit tipą (Unit neprivaloma rašyti).
         println("Sveikas: $tekstas")
 }
 ```
 
+Kotlin turi tik šiuos kintamųjų aprašymo būdus val arba var žemiau pateikiami skirtumai: 
+```kotlin
 
+val skaicius = 50 // reikšmė, kurios negalime keisti (angl. immutable)
+var vardas = "Petras" // Vardą galėsime pakeisti bet kada (angl. mutable)
 
+```
 
 
 
