@@ -7,7 +7,7 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 
 ## Kotlin vs Java
 **Turinys**
-- [Kotlin programavimo kalba] (#kotlin-programavimo-kalba)
+- [Kotlin programavimo kalba](#kotlin-programavimo-kalba)
 - [Overloaded methods](#overloaded-methods) 
 - [FIlter usage collections](#filter-usage-collections) 
 
@@ -124,6 +124,28 @@ fun main(args: Array<String>) {
     overloaded.printMessage(prefix = "Hello im Prefix", message = "im Kotlin", suffix = "And Suffix")
 
 //--------------------------------------------Kotlin-----------------------------------------------//
+```
+### Kotlin Pairs ir Triples
+
+```kotlin 
+fun grazinaPora(): Pair<String, String>{
+    return Pair("Kaire", "Desine")
+}
+fun init(){
+    val pora = grazinaPora()
+    println("Pirmas narys: ${pora.first}, Antras narys: ${pora.second}")
+}
+```
+Išvedamas tekstas į ekraną:
+``` Pirmas narys: Kaire, Antras narys: Desine.```
+Aiškumui įvesti galima pakeisti first, second,..., ir t.t. į savo sugalvotus pavadinimus pvz:
+```kotlin
+fun init(){
+    val pora = grazinaPora()
+    val (kaire_ranka, desine_ranka) = grazinaPora()
+    println("Pirmas narys: "+ kaire_ranka + ", Antras narys:" + desine_ranka)
+    println("Pirmas narys: ${pora.first}, Antras narys: ${pora.second}")
+}
 ```
 
 ### Filter usage collections
