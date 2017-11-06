@@ -205,7 +205,71 @@ Funkcija skaičiuojanti faktorialą naudojant rekursiją.
 
 
 
-**Operatorių perkrovimas** Operator overloading
+### Operatorių perkrovimas
+
+Operatorių pekrovimas yra tik Kotlin kalboje panašumai lyginant su C++ kalba, kurioje taip pat yra galimybė naudoti perkrautuosius operatrius. Žemiau yra pateikiamas pavyzdys kaip galima panaudoti (plus (+)) operatorių:
+
+```kotlin
+package overloadedoperators
+
+enum class MatavimoVnt(val svoris: Int){
+    KILOGRAMAS (1000),
+    GRAMAS (1),
+    TONA (1_000_000)
+}
+interface VaisiausSvoris{
+     fun svoris(): Int
+}
+class Pintine {
+    private val sarasas : MutableList<Vaisius> = mutableListOf()
+    fun idetiIpintine(vaisius: Vaisius) = sarasas.add(vaisius)
+    fun pasverti(matas: MatavimoVnt = MatavimoVnt.GRAMAS):Int {
+       return sarasas.sumBy { it -> it.svoris } / matas.svoris
+    }
+}
+
+// Perkrauto operatoriaus (angl. overloaded operator) aprašymas 
+open class Vaisius(val pavadinimas: String, var svoris: Int){
+    operator fun plus(vaisius: Vaisius) : Vaisius{
+        return Vaisius(pavadinimas, svoris + vaisius.svoris)
+    }
+}
+
+class Slyva(pavadinimas:String, svoris: Int):
+        Vaisius(pavadinimas, svoris), VaisiausSvoris{
+    override fun svoris(): Int = svoris
+}
+class Kriause(pavadinimas:String, svoris: Int):
+        Vaisius(pavadinimas, svoris), VaisiausSvoris{
+    override fun svoris(): Int = svoris
+}
+class Obuolys(pavadinimas: String, svoris: Int):
+        Vaisius(pavadinimas, svoris), VaisiausSvoris{
+    override fun svoris(): Int = svoris
+}
+
+fun main(args: Array<String>) {
+    val slyva = Slyva("Anašpet", 100)
+    val obuolys = Obuolys("Auksis", 300)
+    val kriause = Kriause("Aluona ", 350)
+    var rezultatas = slyva + obuolys + kriause
+
+    val pintine = Pintine()
+    for (i in 1..20000) {
+        pintine.idetiIpintine(slyva)
+        pintine.idetiIpintine(obuolys)
+        pintine.idetiIpintine(kriause)
+    }
+    println("Viso vaisių idėtų į pintinę: ${pintine.pasverti()} g")
+    println("Viso vaisių idėtų į pintinę: ${pintine.pasverti(MatavimoVnt.KILOGRAMAS)} kg")
+    println("Viso vaisių idėtų į pintinę: ${pintine.pasverti(MatavimoVnt.TONA)} t")
+    println("Viso vaisių naudojant overloaded operatorių (plus (+)): ${rezultatas.svoris} g")
+}
+```
+
+
+
+https://www.programiz.com/kotlin-programming/operator-overloading
 
 
 
