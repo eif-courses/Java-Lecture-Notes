@@ -204,6 +204,14 @@ Funkcija skaičiuojanti faktorialą naudojant rekursiją.
 
 
 
+
+**Operatorių perkrovimas** Operator overloading
+
+
+
+
+
+
 ### Filter usage collections
 
 
