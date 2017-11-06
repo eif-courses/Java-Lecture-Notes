@@ -12,7 +12,7 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 - [FIlter usage collections](#filter-usage-collections) 
 ## Kotlin vaizdinė medžiaga internete
 [https://www.youtube.com/watch?v=H_oGi8uuDpA&t=2s]
-
+https://www.youtube.com/watch?v=sZWMPYIkNd8&t=3417
 ### Kotlin programavimo kalba
 
 **Kotlin funkcija**
