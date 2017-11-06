@@ -13,7 +13,7 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 ## Kotlin vaizdinė medžiaga internete
 - [https://www.youtube.com/watch?v=H_oGi8uuDpA&t=2s]
 - [https://www.youtube.com/watch?v=sZWMPYIkNd8&t=3417]
-
+https://www.youtube.com/watch?v=pjC8C1xid3k
 Kotlin in Android [https://www.youtube.com/watch?v=fPzxfeDJDzY&t=4s]
 ### Kotlin programavimo kalba
 
@@ -183,7 +183,7 @@ fun extensionFunkcijosTestas(){
 }
 ```
 Į ekraną bus išvedamas šis tekstas: 
-- Studentui suteikta stipendija
+```Studentui suteikta stipendija```
 
 Taip pat dar vienas pavyzdys turime String klasę, kuria papildysime nauju metodu pvz: 
 ```kotlin
@@ -196,13 +196,12 @@ fun extensionStringTestas(){
     "bet_kokia_simboliu_eilute".pasisveikinimas()
 }
 ```
-Į ekraną bus išvedamas šis tekstas: 
-- Sveiki aš esu simbolių eilutė: (angl. String)
-- Sveiki aš esu simbolių eilutė: (angl. String)
+Į ekraną bus išvedamas šis tekstas:
+``` Sveiki aš esu simbolių eilutė: (angl. String)
+Sveiki aš esu simbolių eilutė: (angl. String)
+```
 
 Funkcija skaičiuojanti faktorialą naudojant rekursiją.
-
-
 
 
 ### Operatorių perkrovimas
