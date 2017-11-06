@@ -207,7 +207,7 @@ Funkcija skaičiuojanti faktorialą naudojant rekursiją.
 
 ### Operatorių perkrovimas
 
-Operatorių pekrovimas yra tik Kotlin kalboje panašumai lyginant su C++ kalba, kurioje taip pat yra galimybė naudoti perkrautuosius operatrius. Žemiau yra pateikiamas pavyzdys kaip galima panaudoti (plus (+)) operatorių:
+Operatorių pekrovimas yra tik Kotlin kalboje panašumai lyginant su C++ kalba, kurioje taip pat yra galimybė naudoti perkrautuosius operatorius. Žemiau yra pateikiamas pavyzdys kaip galima panaudoti (plus (+)) operatorių norint susumuoti keletą skirtingų objektų pagal svorį:
 
 ```kotlin
 package overloadedoperators
@@ -266,7 +266,13 @@ fun main(args: Array<String>) {
     println("Viso vaisių naudojant overloaded operatorių (plus (+)): ${rezultatas.svoris} g")
 }
 ```
-
+Įvykdžius programą į ekraną išvestas tekstas:
+```
+Viso vaisių idėtų į pintinę: 15000000 g
+Viso vaisių idėtų į pintinę: 15000 kg
+Viso vaisių idėtų į pintinę: 15 t
+Viso vaisių naudojant overloaded operatorių (plus (+)): 750 g
+```
 
 
 https://www.programiz.com/kotlin-programming/operator-overloading
