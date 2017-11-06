@@ -198,6 +198,10 @@ fun extensionStringTestas(){
 - Sveiki aš esu simbolių eilutė: (angl. String)
 - Sveiki aš esu simbolių eilutė: (angl. String)
 
+Funkcija skaičiuojanti faktorialą naudojant rekursiją.
+
+
+
 ### Filter usage collections
 
 
@@ -244,7 +248,6 @@ fun main(args: Array<String>) {
 }
 //--------------------------------------------Kotlin-----------------------------------------------//
 ```
-
 ### Singleton Design pattern 
 Klasikinis projektavimo šablonas Singleton naudojant java programavimo kalbą.
 ```java
