@@ -197,7 +197,8 @@ fun extensionStringTestas(){
 }
 ```
 Į ekraną bus išvedamas šis tekstas:
-``` Sveiki aš esu simbolių eilutė: (angl. String)
+``` 
+Sveiki aš esu simbolių eilutė: (angl. String)
 Sveiki aš esu simbolių eilutė: (angl. String)
 ```
 
