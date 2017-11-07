@@ -15,6 +15,7 @@ Naujos JVM (Java Virtual Machine) programavimo kalbos Kotlin apžvalga ir palygi
 - [https://www.youtube.com/watch?v=sZWMPYIkNd8&t=3417]
 https://www.youtube.com/watch?v=pjC8C1xid3k
 Kotlin in Android [https://www.youtube.com/watch?v=fPzxfeDJDzY&t=4s]
+https://medium.com/@dime.kotevski/kotlin-syntax-sugar-tips-a560035dd92a
 ### Kotlin programavimo kalba
 
 **Kotlin funkcija**
