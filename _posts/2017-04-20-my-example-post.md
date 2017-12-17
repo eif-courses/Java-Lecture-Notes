@@ -2,11 +2,13 @@
 layout: post
 ---
 
-Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
 
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
+SPRING BOOT 3 kalbos palyginimas
+https://rskupnik.github.io/basic-spring-webapp-java-kotlin-scala
 
-No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+
+http://javasampleapproach.com/spring-framework/spring-data/kotlin-springjpa-hibernate-one-many-relationship
+
+
+https://stonesoupprogramming.com/2017/06/02/kotlin-spring-mvc/
+
