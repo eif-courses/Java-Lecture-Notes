@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Slides
-tagline: teorinių paskaitų skaidrės
+title: Paskaitų skaidrės
+tagline: Teorinių paskaitų skaidrės
 permalink: /slides.html
 published: true
 ---
