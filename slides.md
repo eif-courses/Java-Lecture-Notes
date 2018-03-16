@@ -1,11 +1,9 @@
 ---
+
 layout: page
 title: Paskaitų skaidrės
 tagline: Teorinių paskaitų skaidrės
-permalink: /slides.html
-published: true
-sidebar:
-  nav: docs
+
 ---
 
 ### - [Programavimo kalbos Java įvadas.](https://www.w3schools.com/html/html_tables.asp)
