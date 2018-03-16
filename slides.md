@@ -7,8 +7,8 @@ published: true
 ---
 ## PASKAITŲ SKAIDRĖS
 ___
-| [1](https://www.w3schools.com/html/html_tables.asp) |
-| [2](https://www.w3schools.com/html/html_tables.asp) |
+| [ĮVADAS](https://www.w3schools.com/html/html_tables.asp) |
+| [](https://www.w3schools.com/html/html_tables.asp) |
 | [3](https://www.w3schools.com/html/html_tables.asp) |
 | [4](https://www.w3schools.com/html/html_tables.asp) |
 | [5](https://www.w3schools.com/html/html_tables.asp) |
