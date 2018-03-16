@@ -6,7 +6,7 @@ tagline: Teorinių paskaitų skaidrės
 
 ---
 
-### - [Programavimo kalbos Java įvadas.](https://www.w3schools.com/html/html_tables.asp)
+### - [Programavimo kalbos Java įvadas.](https://github.com/eif-courses/Java-Lecture-Notes/slides/1.html)
 ### - [Raktinis žodis final ir vidinės klasės.](https://www.w3schools.com/html/html_tables.asp)
 ### - [Kolekcijos ir išimčių apdorojimo mechanizmas.](https://www.w3schools.com/html/html_tables.asp)
 ### - [Parametrizuoti tipai (angl. generics).](https://www.w3schools.com/html/html_tables.asp) 
