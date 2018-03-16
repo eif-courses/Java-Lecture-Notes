@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: posts
 title: Paskaitų skaidrės
 tagline: Teorinių paskaitų skaidrės
 
