@@ -17,7 +17,6 @@ published: true
 - [Grafinė vartotojo sąsaja JAVA AWT, SWING, SWT ir kiti.](https://www.w3schools.com/html/html_tables.asp) 
 - [Spring Boot ir kitų karkasų apžvalga.](https://www.w3schools.com/html/html_tables.asp) 
 - [Naujų java JDK versijų apžvalga.](https://www.w3schools.com/html/html_tables.asp) 
-___
 
-[Grįžti į pagrindinį puslapį.]({{ site.url }}{{ site.baseurl }})
-___
+ 
+ [Grįžti į pagrindinį puslapį.]({{ site.url }}{{ site.baseurl }})
