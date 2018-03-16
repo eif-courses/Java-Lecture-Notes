@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Slides
-tagline: A few more words about this theme
+tagline: teorinių paskaitų skaidrės
 permalink: /slides.html
 published: true
 ---
-## TEORINIŲ PASKAITŲ SKAIDRĖS
 ___
 - [Programavimo kalbos Java įvadas.](https://www.w3schools.com/html/html_tables.asp) 
 - [Raktinis žodis final ir vidinės klasės.](https://www.w3schools.com/html/html_tables.asp) 
