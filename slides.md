@@ -5,15 +5,17 @@ tagline: A few more words about this theme
 permalink: /slides.html
 published: true
 ---
-## PASKAITŲ SKAIDRĖS
+## TEORINIŲ PASKAITŲ SKAIDRĖS
 ___
-| [ĮVADAS](https://www.w3schools.com/html/html_tables.asp) |
-| [](https://www.w3schools.com/html/html_tables.asp) |
-| [3](https://www.w3schools.com/html/html_tables.asp) |
-| [4](https://www.w3schools.com/html/html_tables.asp) |
-| [5](https://www.w3schools.com/html/html_tables.asp) |
-| [6](https://www.w3schools.com/html/html_tables.asp) |
-| [7](https://www.w3schools.com/html/html_tables.asp) |
-| [8](https://www.w3schools.com/html/html_tables.asp) |
-| [9](https://www.w3schools.com/html/html_tables.asp) |
+- [Programavimo kalbos Java įvadas.](https://www.w3schools.com/html/html_tables.asp) 
+- [Raktinis žodis final ir vidinės klasės.](https://www.w3schools.com/html/html_tables.asp) 
+- [Kolekcijos ir išimčių apdorojimo mechanizmas.](https://www.w3schools.com/html/html_tables.asp)
+- [Parametrizuoti tipai (angl. generics).](https://www.w3schools.com/html/html_tables.asp) 
+- [Anotacijos ir JavaDoc dokumentacijos rengimo įrankis.](https://www.w3schools.com/html/html_tables.asp) 
+- [Java Lambda išraiškos JDK 1.8+.](https://www.w3schools.com/html/html_tables.asp)
+- [Aplikacijos kūrimo metodika (Test Driven-Development).](https://www.w3schools.com/html/html_tables.asp) 
+- [Projektavimo šablonai (angl. Design patterns).](https://www.w3schools.com/html/html_tables.asp) 
+- [Grafinė vartotojo sąsaja](https://www.w3schools.com/html/html_tables.asp) 
+___
+
 [Go to the Home Page]({{ site.url }}{{ site.baseurl }})
