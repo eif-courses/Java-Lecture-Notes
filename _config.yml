@@ -1,5 +1,5 @@
 title: Programavimo kalba Java
-description: Teorinė paskaitų medžiaga ir programų pavyzdžiai
+description: VK EIF Lekt. Marius Gžegoževskis
 show_downloads: true
 
 baseurl: "/Java-Lecture-Notes" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -16,3 +16,6 @@ theme: # leave it empty
 # social
 author: "Marius Gžegoževskis"
 
+# pagination
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
